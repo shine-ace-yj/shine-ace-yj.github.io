@@ -539,13 +539,11 @@ foo(2);
 </code></pre><p>第一个括号表示函数为表达式，第二个表示为函数调用，可以传入参数;</p>
 </li>
 </ol>
-<p>###块级表达式</p>
-<ol>
+<h3 id="块级表达式"><a href="#块级表达式" class="headerlink" title="块级表达式"></a>块级表达式</h3><ol>
 <li>try/catch 中的catch为块级表达式，其声明的变量只在catch中有用；</li>
 <li>let/const       </li>
 </ol>
-<p>###声明提升</p>
-<ol>
+<h3 id="声明提升"><a href="#声明提升" class="headerlink" title="声明提升"></a>声明提升</h3><ol>
 <li><code>var a = 2</code>被分为2个片段执行<code>var a</code>和<code>a = 2</code>，第一个为编译阶段执行，后一个为运行阶段执行；</li>
 <li>无论声明在什么地方，都将在代码本身被执行前进行处理，所有声明都会被移动至作用域最前端，而赋值操作会留在原地按序执行；</li>
 <li>函数提升优先于变量提升，变量与函数同名时；</li>
