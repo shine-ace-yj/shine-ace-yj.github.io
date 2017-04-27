@@ -103,7 +103,7 @@
 
 
 变量的赋值操作var a = 2; 执行2个动作，一，编译器询问作用域是否存在了a这个名称的变量，存在，就忽略var a这个操作，否则就在当前作用域中声明该变量并命名为a，二，在运行时引擎会在作用域中查询该变量，">
-<meta property="og:updated_time" content="2017-04-27T04:53:12.083Z">
+<meta property="og:updated_time" content="2017-04-27T09:18:58.060Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="作用域-1：是什么？">
 <meta name="twitter:description" content="作用域
@@ -409,6 +409,28 @@ foo(2);
 </li>
 <li><p>异常：ReferenceError: 在作用域中查询不到该变量是抛出； TypeError: 作用域判别成功了，即找到了该变量，但对结果的操作是非法的；</p>
 </li>
+<li><p>词法作用域：定义在词法阶段的作用域，由代码中变量和作用域的位置决定，无论函数在哪里被调用，函数的作用域都只由函数定义时的位置决定；</p>
+</li>
+</ol>
+<h3 id="函数作用域"><a href="#函数作用域" class="headerlink" title="函数作用域"></a>函数作用域</h3><ol>
+<li>函数作用域指的是函数中的全部变量可以在函数中的任意地方使用；</li>
+<li>区分函数表达式和函数声明的方法是 function 关键字出现的位置是否是第一位，如果是，则为函数声明，否则为函数表达式；</li>
+<li><p>IIFE -&gt; 立即执行函数表达式 </p>
+<pre><code>( function ( ) { } )( )
++/- function( ) { } ( )
+</code></pre><p>第一个括号表示函数为表达式，第二个表示为函数调用，可以传入参数;</p>
+</li>
+</ol>
+<p>###块级表达式</p>
+<ol>
+<li>try/catch 中的catch为块级表达式，其声明的变量只在catch中有用；</li>
+<li>let/const       </li>
+</ol>
+<p>###声明提升</p>
+<ol>
+<li><code>var a = 2</code>被分为2个片段执行<code>var a</code>和<code>a = 2</code>，第一个为编译阶段执行，后一个为运行阶段执行；</li>
+<li>无论声明在什么地方，都将在代码本身被执行前进行处理，所有声明都会被移动至作用域最前端，而赋值操作会留在原地按序执行；</li>
+<li>函数提升优先于变量提升，变量与函数同名时；</li>
 </ol>
 <p><em>不知道的Javascript读书笔记，以上内容均出自“你不知道的Javascript 上卷”</em></p>
 
@@ -462,6 +484,10 @@ foo(2);
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2017/04/27/作用域闭包/" rel="prev" title="作用域闭包">
+                作用域闭包 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -535,7 +561,7 @@ foo(2);
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">4</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -546,7 +572,7 @@ foo(2);
             
             <div class="site-state-item site-state-categories">
               <a href="/categories/index.html">
-                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-count">2</span>
                 <span class="site-state-item-name">分类</span>
               </a>
             </div>
@@ -610,7 +636,7 @@ foo(2);
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#作用域"><span class="nav-number">1.</span> <span class="nav-text">作用域</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#作用域"><span class="nav-number">1.</span> <span class="nav-text">作用域</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#函数作用域"><span class="nav-number">2.</span> <span class="nav-text">函数作用域</span></a></li></ol></div>
             
 
           </div>
