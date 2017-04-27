@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-04-27T04:20:51.009Z</updated>
+  <updated>2017-04-27T04:53:12.083Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://yoursite.com/2017/04/27/%E4%BD%9C%E7%94%A8%E5%9F%9F-1%EF%BC%9A%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/"/>
     <id>http://yoursite.com/2017/04/27/作用域-1：是什么？/</id>
     <published>2017-04-27T03:30:23.000Z</published>
-    <updated>2017-04-27T04:20:51.009Z</updated>
+    <updated>2017-04-27T04:53:12.083Z</updated>
     
     <summary type="html">
     
@@ -29,6 +29,10 @@
     
     </summary>
     
+      <category term="你不知道的Javascript 上" scheme="http://yoursite.com/categories/you-dont-kown/"/>
+    
+    
+      <category term="javascript" scheme="http://yoursite.com/tags/javascript/"/>
     
   </entry>
   
@@ -55,13 +59,15 @@
     <link href="http://yoursite.com/2017/03/26/hello-world/"/>
     <id>http://yoursite.com/2017/03/26/hello-world/</id>
     <published>2017-03-26T12:32:32.736Z</published>
-    <updated>2017-03-27T01:52:45.665Z</updated>
+    <updated>2017-04-27T05:02:29.819Z</updated>
     
     <summary type="html">
     
       &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
     
     </summary>
+    
+      <category term="javascript" scheme="http://yoursite.com/categories/js/"/>
     
     
   </entry>
