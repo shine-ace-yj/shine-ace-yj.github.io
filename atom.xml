@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-03-27T01:49:05.724Z</updated>
+  <updated>2017-04-27T04:20:51.009Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -14,6 +14,23 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>作用域-1：是什么？</title>
+    <link href="http://yoursite.com/2017/04/27/%E4%BD%9C%E7%94%A8%E5%9F%9F-1%EF%BC%9A%E6%98%AF%E4%BB%80%E4%B9%88%EF%BC%9F/"/>
+    <id>http://yoursite.com/2017/04/27/作用域-1：是什么？/</id>
+    <published>2017-04-27T03:30:23.000Z</published>
+    <updated>2017-04-27T04:20:51.009Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;作用域&quot;&gt;&lt;a href=&quot;#作用域&quot; class=&quot;headerlink&quot; title=&quot;作用域&quot;&gt;&lt;/a&gt;作用域&lt;/h3&gt;&lt;blockquote&gt;
+&lt;p&gt;引擎：负责Javascript程序的执行和编译过程；&lt;br&gt;编译器：负责语法分析及代码生成等；&lt;br&gt;作用
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>js</title>
